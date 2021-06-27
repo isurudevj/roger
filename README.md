@@ -21,8 +21,8 @@ twitter feeds webhooks - for sentiment analysis<br>
 braintree webhooks - for payment subscription updates<br>
 </p>
 
-Using a tool like [ngrok](https://ngrok.com) is usually the preferred way for developers,
-but roger is better a better way based on AWS services listed bellow.
+Using a tool like [ngrok](https://ngrok.com) is usually the preferred way by developers,
+but roger is a better way based on AWS services listed bellow.
 
 1. AWS API Gateway
 2. AWS Lambda
