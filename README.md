@@ -32,6 +32,6 @@ Amount you will have to pay is much lesser than the tunnel based solutions.
 Its production ready, design for high availability and scalability. 
 
 <p align="center">
-    <img width="460" height="300" src="https://github.com/isurudevj/roger/raw/main/github-docs/Roger.gif">
+    <img width="460" height="300" src="https://github.com/isurudevj/roger/raw/main/github-docs/Roger.png">
 </p>
 
