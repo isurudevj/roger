@@ -1,12 +1,10 @@
 import boto3
 
 # Let's use Amazon S3
-client = boto3.client('s3')
+client = boto3.client('apigateway')
 
-data = open('../github-docs/roger-roger.gif', 'rb')
-response = client.put_object(
-    Body= data,
-    Bucket='roger.dreamstack.net',
-    Key='roger.gif',
+api_name = "RogerTestApi"
+
+response = client.create_rest_api(
+    name=api_name
 )
-print(response)

@@ -15,7 +15,7 @@ Roger is a collection of easy web hooks using AWS cloud-native
 
 <p>
 Often times developers have to set up webhooks to integrate with certain web service providers.
-<br><br>Ex:<br><br>
+<br><br>Examples:<br><br>
 facebook messenger webhooks - for chat bots<br>
 twitter feeds webhooks - for sentiment analysis<br> 
 braintree webhooks - for payment subscription updates<br>
@@ -36,11 +36,11 @@ Its production ready, design for high availability and scalability.
 </p>
 
 
-Topic
+### Topics
 
 [Set up](SETUP.md)
 
-## Extras
+### Extras
 
 [Developer Essentials Boto3](DEVELOPER.md)<br>
 [AWS CLI Cheat Sheet](aws-cli-cheat-sheet.md)<br>
