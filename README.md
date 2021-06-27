@@ -39,3 +39,8 @@ Its production ready, design for high availability and scalability.
 Topic
 
 [Set up](SETUP.md)
+
+## Extras
+
+[Developer Essentials Boto3](DEVELOPER.md)<br>
+[AWS CLI Cheat Sheet](aws-cli-cheat-sheet.md)<br>
