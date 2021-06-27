@@ -35,3 +35,7 @@ Its production ready, design for high availability and scalability.
     <img width="460" height="300" src="https://github.com/isurudevj/roger/raw/main/github-docs/Roger.png">
 </p>
 
+
+Topic
+
+[Set up](SETUP.md)
