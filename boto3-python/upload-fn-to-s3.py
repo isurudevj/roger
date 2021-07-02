@@ -1,10 +1,15 @@
 import shutil
 import boto3
 import os
+from botocore.config import Config
 
-client = boto3.client("s3")
+config = Config(
+    region_name='us-east-1'
+)
 
-s3_bucket_name = 'roger.dreamstack.net2'
+client = boto3.client("s3", config=config)
+
+s3_bucket_name = 'roger1.dreamstack.net'
 
 response = client.list_buckets()
 
@@ -12,7 +17,7 @@ bucket_name = next(filter((lambda bucket: bucket['Name'] == s3_bucket_name), res
 
 if bucket_name is None:
     response = client.create_bucket(
-        Bucket=s3_bucket_name,
+        Bucket=s3_bucket_name
     )
     print("New bucket created ")
     print(response)

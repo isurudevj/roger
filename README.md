@@ -44,3 +44,5 @@ Its production ready, design for high availability and scalability.
 
 [Developer Essentials Boto3](DEVELOPER.md)<br>
 [AWS CLI Cheat Sheet](aws-cli-cheat-sheet.md)<br>
+[Lambda + API Gateway](https://docs.aws.amazon.com/code-samples/latest/catalog/python-lambda-boto_client_examples-api_gateway_rest.py.html) <br>
+[AWS Chalice](chalice-resources.md) <br>
