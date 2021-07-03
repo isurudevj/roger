@@ -14,7 +14,7 @@
       "Action": [
         "sqs:SendMessage"
       ],
-      "Resource": ["arn:aws:sqs:*:*:facebook-messages"],
+      "Resource": ["arn:aws:sqs:*:*:facebook-hooks"],
       "Effect": "Allow"
     }
   ]
