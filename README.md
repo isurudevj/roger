@@ -37,7 +37,7 @@ Serverless coding and deployment has never being this easy.
 # Approach
 
 ### Step 1
-AWS cloudformation will be used to create resources, in this case will SQS Queue in AWS.<br>
+AWS cloudformation will be used to create resources, in this case will be using SQS Queue in AWS.<br>
 
 ### Step 2
 Chalice will be used to code and deploy python based serverless app. <br>
