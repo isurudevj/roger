@@ -31,14 +31,21 @@ but roger is a better way based on AWS serverless listed bellow.
 Amount you will have to pay is much lesser than the tunnel based solutions.
 Its production ready, design for high availability and scalability.
 
-AWS provides the AWS Chalice a boiler-plate, a python based microframework for serverless.
-Serverless coding and deployment is never being this easy.
+AWS provides, AWS Chalice a python based microframework for serverless.
+Serverless coding and deployment has never being this easy.
 
+# Approach
 
-# Two steps approach
+AWS cloudformation will be used to create resources, in this case will SQS Queue in AWS.<br>
+Chalice will be used to code and deploy python based serverless app. <br>
+It will also take of plumbing between AWS API Gateway and AWS Lambda and required IAM roles and policies. <br>
+
+# Two steps for you
 
 1. I use AWS cloudformation to create the resources I need. (here I use SQS)
 2. Chalice to create, test and deploy AWS serverless app
+<br>
+   Under the hood chalice will create API gateway and Lambda integration for me.
 
 ### Topics
 
