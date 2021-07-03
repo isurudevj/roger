@@ -3,7 +3,7 @@
 1. Copy file from bucket to local
 
 ```shell
-aws s3 cp s3:\\mybucket\myfile.git .
+aws s3 cp s3:\\mybucket\myfile.gif .
 ```
 
 2. Copy file to bucket from local
