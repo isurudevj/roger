@@ -41,11 +41,9 @@ AWS cloudformation will be used to create resources, in this case will SQS Queue
 
 ### Step 2
 Chalice will be used to code and deploy python based serverless app. <br>
-
-### Step 3
 It will also take of plumbing between AWS API Gateway and AWS Lambda and required IAM roles and policies. <br>
 
-### Step 4 (Optional)
+### Step 3 (Optional)
 Use spring boot based microservice which is running in your local dev set up to consume messages from SQS.
 For facebook chatbots I can highly recommend [messenger4j](https://github.com/messenger4j/messenger4j). <br>
 
