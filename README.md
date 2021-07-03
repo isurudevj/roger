@@ -41,7 +41,7 @@ AWS cloudformation will be used to create resources, in this case will be using 
 
 ### Step 2
 Chalice will be used to code and deploy python based serverless app. <br>
-It will also take of plumbing between AWS API Gateway and AWS Lambda and required IAM roles and policies. <br>
+It will also take care of plumbing between AWS API Gateway and AWS Lambda and required IAM roles and policies. <br>
 
 ### Step 3 (Optional)
 Use spring boot based microservice which is running in your local dev set up to consume messages from SQS.
