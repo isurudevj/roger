@@ -1,6 +1,6 @@
 # roger
 
-Roger is a collection of easy web hooks using AWS cloud-native
+Roger is a collection of easy web hooks using AWS serverless.
 
 
 <h1 align="center">Roger Roger !!!</h1>
@@ -22,23 +22,27 @@ braintree webhooks - for payment subscription updates<br>
 </p>
 
 Using a tool like [ngrok](https://ngrok.com) is usually the preferred way by developers,
-but roger is a better way based on AWS services listed bellow.
+but roger is a better way based on AWS serverless listed bellow.
 
 1. AWS API Gateway
 2. AWS Lambda
 3. AWS SQS
 
 Amount you will have to pay is much lesser than the tunnel based solutions.
-Its production ready, design for high availability and scalability. 
+Its production ready, design for high availability and scalability.
 
-<p align="center">
-    <img width="460" height="300" src="https://github.com/isurudevj/roger/raw/main/github-docs/Roger.png">
-</p>
+AWS provides the AWS Chalice a boiler-plate, a python based microframework for serverless.
+Serverless coding and deployment is never being this easy.
 
+
+# Two steps approach
+
+1. I use AWS cloudformation to create the resources I need. (here I use SQS)
+2. Chalice to create, test and deploy AWS serverless app
 
 ### Topics
 
-[Set up](SETUP.md)
+[Set up](chalice.md)
 
 ### Extras
 
